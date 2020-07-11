@@ -1,0 +1,29 @@
+{
+  "name": "pl-wotd",
+  "version": "1.0.0",
+  "description": "Find the Polish word-of-the-day & display it",
+  "main": "webscrape.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "rp": "^0.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "module",
+    "language"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjb527/PL-WordOfTheDay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjb527/PL-WordOfTheDay/issues"
+  },
+  "homepage": "https://github.com/mjb527/PL-WordOfTheDay#readme"
+}
