@@ -7,6 +7,10 @@ Module.register('MMM-PL_WOTD', {
 
   }
 
+  loaded: function() {
+    Log.log('Starting MMM-PL_WOTD!');
+  }
+
   start: function() {
     Log.log('Starting MMM-PL_WOTD');
 
