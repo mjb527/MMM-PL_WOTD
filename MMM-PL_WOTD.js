@@ -7,12 +7,8 @@ Module.register('MMM-PL_WOTD', {
 
   }
 
-  loaded: function() {
-    Log.log('Starting MMM-PL_WOTD!');
-  },
-
   start: function() {
-    Log.log('Starting MMM-PL_WOTD');
+    Log.log('Starting module ' + this.name);
 
     // make initial request
     this.wotd = this.getWord();
