@@ -8,10 +8,10 @@ Module.register('MMM-PL_WOTD', {
   }
 
   start: function() {
-    Log.log('Starting PL_WOTD');
+    Log.log('Starting MMM-PL_WOTD');
 
     // make initial request
-    this.getWord();
+    this.wotd = this.getWord();
 
   },
 
@@ -65,7 +65,7 @@ Module.register('MMM-PL_WOTD', {
       wotd_data.examples = examples;
 
       // save data
-      this.wotd = wotd_data;
+      return wotd_data;
 
     })
     .catch(function (err) {
@@ -80,7 +80,7 @@ Module.register('MMM-PL_WOTD', {
 
   },
 
-  display: function() {
+  getDOM: function() {
     let wrapper = null;
 
     // check if we have data
