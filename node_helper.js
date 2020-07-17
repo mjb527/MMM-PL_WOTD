@@ -3,7 +3,7 @@ module.exports = NodeHelper.create({
 
   // this.sendSocketNotification('SET_CONFIG', this.config);
   socketNotificationReceived: function(notification) {
-    if(notification === "CONFIG")
+    if(notification === "GET_WORD")
       this.sendSocketNotification("GOT_WORD", this.getData() );
     else return;
   },
