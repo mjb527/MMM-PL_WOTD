@@ -6,7 +6,7 @@
  * By mjb527
  */
 
-Module.register("MM-PL_WOTD", {
+Module.register("MMM-PL_WOTD", {
 	defaults: {
 		updateInterval: 24 * 60 * 60 * 1000, // update once per day
 		retryDelay: 5000,
