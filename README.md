@@ -6,7 +6,7 @@ Author: mjb527
 
 ## Description
 
-A [Magic Mirror](https://github.com/MichMich/MagicMirror) module that scrapes a Polish Word of the Day from [https://www.polishpod101.com/polish-phrases/](https://www.polishpod101.com/polish-phrases/) and formats the Polish word and sentences, and their English translations, creating a result like the one above.
+Polish can be difficulty to learn, so I created this [Magic Mirror](https://github.com/MichMich/MagicMirror) module that scrapes a Polish Word of the Day from [https://www.polishpod101.com/polish-phrases/](https://www.polishpod101.com/polish-phrases/). It formats the Polish word and sentences, and their English translations, creating a result like the one above, and displays it in the document.
 
 Includes:
 1. The word of the day
