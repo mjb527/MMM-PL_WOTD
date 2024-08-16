@@ -68,7 +68,8 @@ Module.register("MMM-PL_WOTD", {
 			const examples = document.createElement("ul");
 
 			// long text may interfere with other modules, keep it nice and small here
-			wrapper.setAttribute('style', 'width: 75%;');
+            wrapper.setAttribute('style', 'max-width: 40vw;');
+
 
 			title.setAttribute('style', 'margin: 1%; padding: 0; font-size: x-large; line-height: 100%;');
 			partOfSpeech.setAttribute('style', 'margin: 1%; padding: 0; font-size: medium; line-height: 100%;');
