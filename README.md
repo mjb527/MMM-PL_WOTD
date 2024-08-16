@@ -14,6 +14,19 @@ Includes:
 3. The part of speech (noun, verb, etc.)
 4. Examples of how to use it in a sentence, plus the English translation
 
+## Config
+
+There's really no config required for this module. Just include the module name and the
+position. Example:
+
+```
+{
+    module: 'MMM-PL_WOTD',
+    position: 'bottom_right'
+}
+```
+
+
 ## Technologies
 
 * JavaScript
